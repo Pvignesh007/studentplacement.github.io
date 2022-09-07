@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+}
+.imag{
+    height: 150px;
+    width:100%;
+    display: flex;
+    background-image:linear-gradient(to right,gold,black);
+}
+.imag h2{
+    font-weight: 900;
+    padding-top: 30px;
+}
+ul{
+    padding: 0;
+    padding-top: 2rem;
+    padding-left: 100px;
+    display:flex;
+}
+.imag li{
+    padding-left: 300px;
+    display: inline;
+    padding-top: 30px;
+}
+.imag ul li a{
+    color: azure;
+    font-size: larger;
+    table-layout: none;
+}
+h1{
+    text-align: center;
+    color: currentColor;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    border: 30px;
+}
+p{
+    font-size:x-large;
+}
+.plimg{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo
+{
+    padding-top: 10px;
+}
+.rec{
+    display: flex;
+    width: min-content;
+}
+.rec1{
+    display: flex;
+
+}
+.rec2{
+    padding-bottom:10px ;
+    display: flex;
+}

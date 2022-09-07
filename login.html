@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>  <title>LOGin page </title>
+<link rel="stylesheet" href="login.css">
+<script src="login.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+   <div class="home">
+      <ul>
+      <li class="icon"><a href="index.html"><i class="fa-solid fa-file-signature"></i> Home</a> </li>
+      </ul>
+   </div>
+<div class="container">
+    <h2> LOGIN </h2>
+
+<form method="post" action="" onsubmit="return validate()">
+
+<div class="username">
+   <input type="text" id="username"name="uname"> <span>  </span> <label for="Username"> Username </label>
+</div>
+
+<div class="password">
+   <input type="password" id="password"name="password"> <span> </span> <label for="password"> Password </label>
+    </div>
+
+<div class="forget">
+   <a href="#" target="_blank" > Forget password?</a>
+</div>
+
+<div class="login">
+   <input type="submit" value="Login" >
+</div>
+
+<div class="sign">
+Not a member?<a href="form.html" target="_blank" onclick="validate()"> Sign up</a>
+</div>
+<div class="regis">
+   <a href="form.html" target="_blank" onclick="validate()> Register</a>
+</div>
+
+</form>
+
+</div>
+</body>
+</html>

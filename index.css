@@ -1,0 +1,229 @@
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+font-family:"Monstserrat",sans-serif;
+}
+li,a,button{
+text-decoration:none;
+font-weight:500;
+font-size:16px;
+color:black;
+}
+body{
+height:200vh;
+}
+header{
+display:flex;
+justify-content:flex-end;
+align-items:center;
+padding: 10px 2%;
+background:goldenrod;
+border-radius:4px;
+}
+button{
+padding:9px 25px;
+background:white;
+border-radius:18px;
+margin-left:40px;
+}
+header img{
+border-radius:50%;
+}
+.logo{
+order:1;
+
+}
+.nav{
+order:3;
+}
+header h1{
+order:2;
+
+}
+.btn{
+order:4;
+}
+.nav ul li{
+display:inline;
+padding:15px 30px 15px 40px;
+border-radius:18px;
+background:transparent;
+
+position:relative;
+z-index:1;
+}
+
+nav ul li::after {
+content:'';
+background:white;
+width:100%;
+height:100%;
+position:absolute;
+border-radius:50px;
+top:100%;
+z-index:-1;
+left:50%;
+transform:translate(-50%,-50%);
+opacity:0;
+transition:all .7s;
+
+}
+nav ul li:hover::after{
+opacity:1;
+top:50%;
+}
+.nav > ul li a i{
+top:20px;
+color:black;
+right:2px;
+font-size:20px;
+}
+
+.ani{
+width:80%;
+height:400px;
+position:absolute;
+transform:translate(-50% ,-50%);
+top:54%;
+left:50%;
+background-image:url('https://imgs.search.brave.com/z9NQrMpdEIVlnPGrCvAslpmXIr8sy8NbuOc9wW75fko/rs:fit:1021:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC4t/bUNyRVFLSi05dGRr/MXdoZkRJQTFnSGFE/YyZwaWQ9QXBp');
+box-shadow:2px 3px 10px 5px black;
+background-size:100% 100%;
+animation: slider 9s infinite linear;
+}
+@keyframes slider{
+0%{  
+background-image: url('https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+35%{ background-image: url('https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29sbGVnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60')
+}
+75%{ background-image: url('https://imgs.search.brave.com/EO0-uy2hewXFyRDSr8hSv_typgG25axzKI5rv-gFcYk/rs:fit:1227:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC43/WjVnR2YySjFKZnVO/V1Y2eEtzQzBBSGFD/MyZwaWQ9QXBp');
+}
+}
+
+.place{
+margin-top:430px;
+display:flex;
+justify-content:space-around;
+background:white;
+}
+
+.place h2{
+background:white;
+position:relative;
+text-transform:uppercase;
+padding:20px;
+width:50%;
+text-align:center;
+}
+.place h2:hover{
+background:skyblue;
+}
+.cont {
+font-size:1.2em;
+text-align:center;
+padding:20px;
+}
+.cont p{
+margin-top:20px;
+}
+
+.ani2{
+width:40%;
+height:150px;
+position:absolute;
+top:120%;
+left:50%;
+background-image:url('https://imgs.search.brave.com/MXRYXaVdVpx7nusSeLlt-g0OVCrlMm-Ip_zhMODxsTI/rs:fit:769:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5T/NC02TnhOZkVXV0xH/X2lBNkJmSDNRSGFF/ayZwaWQ9QXBp');
+box-shadow:2px 3px 10px 5px black;
+background-size:100% 100%;
+animation: ani 14s infinite linear;
+}
+@keyframes ani{
+0%{
+transform:skewX(13deg) translateX(-600px);
+}
+60%{
+transform:translateX(-400px);
+background-image: url('https://imgs.search.brave.com/lvHEQxpKqcknpp5RM-HAkPOQEEzlDmQN8wJExwareAU/rs:fit:300:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JRi5X/NmpXUmVHZjVhU0dq/SCUyZnV5dm9HN1Em/cGlkPUFwaQ');
+}
+62%{
+transform: skewX(0deg) translateX(70);
+}
+70%{
+transform:translateX:(-400px);
+}
+75%{ background-image: url('https://imgs.search.brave.com/cObydd6286IcZoGdVowNsy2OCYLCtrj2NHU8lYpTbdg/rs:fit:1431:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5F/bVZPMW1GajVoQk9E/SHgwXzBDdWhnSGFD/ZCZwaWQ9QXBp');
+}
+}
+
+.last{
+margin-top:300px;
+text-align:center;
+height:80vh;
+background:white;
+}
+.last h1{
+background:white;
+width:100%;
+padding:20px;
+text-transform:uppercase;
+}
+
+.boxs{
+display:flex;
+height:350px;
+justify-content:space-around;
+line-height:1.5em;
+background:white;
+
+}
+.box{
+border:2px black solid;
+padding:15px;
+border-radius:10px;
+padding-right:30px;
+}
+.ylow h1,.ylow p{
+background:yellow;
+}
+.ylow h1{
+padding:50px;
+}
+.ylow p{
+padding: 0px 60px;
+}
+.y1 img{
+padding:20px;
+background:yellow;
+}
+.y1{
+display:flex;
+justify-content:space-around;
+}
+.y1{
+height:450px;
+background:yellow;
+}
+.icon{
+padding:50px;
+width:500px;
+display:flex;
+justify-content:flex-end;
+text-align:center;
+}
+.icon p{
+padding:20px;
+}
+.icon i{
+text-align:center;
+color:red;
+font-size:1.5em;
+}
+.footer{
+height:500px;
+background:red;
+display:flex;
+
+}
