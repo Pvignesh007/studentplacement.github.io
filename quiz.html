@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <title>quiz app</title>
+    <style>
+        button{
+            text-align: center;
+            color: white;
+            background-color: red;
+            display:block;
+            margin: 2rem auto;
+            border: none;
+            padding: .5rem 3rem;
+            border-radius: .5rem;
+        }
+    </style>
+
+</head>
+<body>
+<form action="http://localhost:8080/studentproject/quiz.jsp" method="post">
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center row">
+            <div class="col-md-10 col-lg-10">
+                <div class="border">
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                            <h4>MCQ Quiz</h4><span>(1 of 10)</span></div>
+                    </div>
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row align-items-center question-title">
+                            <h3 class="text-danger">Q.</h3>
+                            <h5 class="mt-1 ml-2">What is the access point (AP) in the wireless LAN?</h5>
+                        </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz1" value="a1"> <span>Modem</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz1" value="a2"> <span>Router</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz1" value="a3"> <span>Bridge</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz1" value="a4"> <span>None of these</span>
+</label>    
+</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center row">
+            <div class="col-md-10 col-lg-10">
+                <div class="border">
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                            <h4>MCQ Quiz</h4><span>(2 of 10)</span></div>
+                    </div>
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row align-items-center question-title">
+                            <h3 class="text-danger">Q.</h3>
+                            <h5 class="mt-1 ml-2">Which of the following server is used by TCP?</h5>
+                        </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz2" value="b1"> <span>SMTP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz2" value="b2"> <span> TFTP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz2" value="b3"> <span>DHCP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz2" value="b4"> <span>All of above</span>
+</label>    
+</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  -->
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10 col-lg-10">
+            <div class="border">
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                        <h4>MCQ Quiz</h4><span>(3 of 10)</span></div>
+                </div>
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row align-items-center question-title">
+                        <h3 class="text-danger">Q.</h3>
+                        <h5 class="mt-1 ml-2">From which tags descriptive list starts?</h5>
+                    </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz3" value="c1"> <span> < LL ></span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz3" value="c2"> <span> < DD ></span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz3" value="c3"> <span>< DL ></span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz3" value="c4"> <span> < DS ></span>
+</label>    
+</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10 col-lg-10">
+            <div class="border">
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                        <h4>MCQ Quiz</h4><span>(4 of 10)</span></div>
+                </div>
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row align-items-center question-title">
+                        <h3 class="text-danger">Q.</h3>
+                        <h5 class="mt-1 ml-2"> HTML tag used for largest heading?</h5>
+                    </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz4" value="d1"> <span>< Head ></span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz4" value="d2"> <span>< H6 ></span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz4" value="d3"> <span>< H1 ></span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz4" value="d4"> <span> < Heading ></span>
+</label>    
+</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
+<div class="container mt-5">
+        <div class="d-flex justify-content-center row">
+            <div class="col-md-10 col-lg-10">
+                <div class="border">
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                            <h4>MCQ Quiz</h4><span>(5 of 10)</span></div>
+                    </div>
+                    <div class="question bg-white p-3 border-bottom">
+                        <div class="d-flex flex-row align-items-center question-title">
+                            <h3 class="text-danger">Q.</h3>
+                            <h5 class="mt-1 ml-2">The server on the internet is also known as?</h5>
+                        </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz5" value="e1"> <span> Hub</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz5" value="e2"> <span>Host</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz5" value="e3"> <span>Gateway</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz5" value="e4"> <span>Repeater</span>
+</label>    
+</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--  -->
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10 col-lg-10">
+            <div class="border">
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                        <h4>MCQ Quiz</h4><span>(6 of 10)</span></div>
+                </div>
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row align-items-center question-title">
+                        <h3 class="text-danger">Q.</h3>
+                        <h5 class="mt-1 ml-2">Which of the following private IP address?</h5>
+                    </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz6" value="f1"> <span>12.0.0.1</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz6" value="f2"> <span>168.172.19.39</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz6" value="f3"> <span>172.15.14.36</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz6" value="f4"> <span>192.168.24.43</span>
+</label>    
+</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10 col-lg-10">
+            <div class="border">
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                        <h4>MCQ Quiz</h4><span>(7 of 10)</span></div>
+                </div>
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row align-items-center question-title">
+                        <h3 class="text-danger">Q.</h3>
+                        <h5 class="mt-1 ml-2"> Which protocol is used to find hardware address of local device?</h5>
+                    </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz7" value="g1"> <span>RARP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz7" value="g2"> <span>ARP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz7" value="g3"> <span>IP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz7" value="g4"> <span>ICMP</span>
+</label>    
+</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10 col-lg-10">
+            <div class="border">
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                        <h4>MCQ Quiz</h4><span>(8 of 10)</span></div>
+                </div>
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row align-items-center question-title">
+                        <h3 class="text-danger">Q.</h3>
+                        <h5 class="mt-1 ml-2">Which of the following protocols uses both TCP and UDP?</h5>
+                    </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz8" value="h1"> <span>FTP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz8" value="h2"> <span>SMTP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz8" value="h3"> <span>Telnet</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz8" value="h4"> <span>DNS</span>
+</label>    
+</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10 col-lg-10">
+            <div class="border">
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                        <h4>MCQ Quiz</h4><span>(9 of 10)</span></div>
+                </div>
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row align-items-center question-title">
+                        <h3 class="text-danger">Q.</h3>
+                        <h5 class="mt-1 ml-2"> Which of the following protocol is used for WWW?</h5>
+                    </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz9" value="i1"> <span>FTP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz9" value="i2"> <span> HTTP</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz9" value="i3"> <span>W3</span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz9" value="i4"> <span>None of above</span>
+</label>    
+</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  -->
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-10 col-lg-10">
+            <div class="border">
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row justify-content-between align-items-center mcq">
+                        <h4>MCQ Quiz</h4><span>(10 of 10)</span></div>
+                </div>
+                <div class="question bg-white p-3 border-bottom">
+                    <div class="d-flex flex-row align-items-center question-title">
+                        <h3 class="text-danger">Q.</h3>
+                        <h5 class="mt-1 ml-2"> Which of the following tags is used to mark a begining of paragraph?</h5>
+                    </div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz10" value="j1"> <span>< TD ></span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz10" value="j2"> <span> < BR ></span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz10" value="j3"> <span>< P ></span>
+</label>    
+</div><div class="ans ml-2">
+<label class="radio"> <input type="radio" name="quiz10" value="j4"> <span> < TR >
+</span>
+</label>    
+</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<button type="submit">Submit</button>
+</form>
+</body>
+</html>
