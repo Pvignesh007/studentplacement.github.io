@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+}
+.imag{
+    height: 150px;
+    width:100%;
+    display: flex;
+    background-image:linear-gradient(to right,white,#e84393);
+}
+.imag h2{
+    font-weight: 900;
+    padding-top: 30px;
+}
+ul{
+    padding: 0;
+    padding-top: 2rem;
+    padding-left: 100px;
+    display:flex;
+}
+.imag li{
+    padding-left: 300px;
+    display: inline;
+    padding-top: 30px;
+}
+.imag ul li a{
+    color:black;
+    font-size: larger;
+    table-layout: none;
+    text-decoration: none;
+    padding: top -10px;
+}
+.imag ul li a:hover{
+    color: aliceblue;
+    background: black;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+.fzoho img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.szoho{
+    margin: 5px;
+    padding: 8px;
+}
+.szoho{
+    font-family: sans-serif;
+    font-weight:normal;
+    font-size: x-large;
+}
+.social-icon{
+    position:absolute;
+    right: 1%;
+    bottom: -56%;
+    margin-bottom: -200px;
+    padding-left: -50px;
+    background: #e84393;
+    border-radius: 40px;
+}
+.social-icon img{
+    width: 25px;
+    display:block;
+    margin:25px 5px;
+
+}
+row a:hover{
+    background: blue;
+}
+.tzoho{
+    box-sizing: border-box;
+    background-image:linear-gradient(to left,white,#e84393);
+}
+.images{
+    float:left;
+    width: 300px;
+    padding: 70px;
+}
+.tzoho::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+iframe{
+    box-shadow: 1px 4px 8px 8px;
+    border-radius: 15px;
+    color:palevioletred;
+}
+.images img{
+    border-radius: 15px;
+    color: #e84393;
+    box-shadow: 1px 4px 8px 8px;
+}
